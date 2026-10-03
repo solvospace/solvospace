@@ -16,8 +16,7 @@ type Project = {
 const projectList: Project[] = [
     { name: "Secret Terminal", description: "A crypto app", status: "Active", link: "https://www.secretterminal.com/" },
     { name: "Service JS", description: "Reusable Components and Services", status: "In Development" },
-    { name: "Letter Terminal", description: "A note-taking app", status: "Planned" },
-    { name: "Screen Trunk", description: "A movie and TV show app", status: "Planned" },
+    { name: "Letter Terminal", description: "Write. Organize. Build.", status: "In Development" },
 ];
 
 export default function Home() {
