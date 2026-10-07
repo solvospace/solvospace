@@ -4,6 +4,7 @@ const appSettings = {
     links: {
         website: new URL("https://solvospace.com"),
         github: new URL("https://github.com/solvospace"),
+        linkedin: new URL("https://www.linkedin.com/company/solvospace"),
     },
 };
 

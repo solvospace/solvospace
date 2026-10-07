@@ -16,6 +16,25 @@ export const metadata: Metadata = {
     description: appSettings.description,
 };
 
+const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebSite",
+            "@id": `${appSettings.links.website}/#website`,
+            name: "Solvospace",
+            url: appSettings.links.website,
+        },
+        {
+            "@type": "Organization",
+            "@id": `${appSettings.links.website}/#organization`,
+            name: "Solvospace",
+            url: appSettings.links.website,
+            sameAs: [appSettings.links.github, appSettings.links.linkedin],
+        },
+    ],
+};
+
 export default function RootLayout({
     children,
 }: Readonly<{
@@ -26,6 +45,15 @@ export default function RootLayout({
             lang="en"
             className={`${inter.className}`}
         >
+            <head>
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: JSON.stringify(jsonLd),
+                    }}
+                />
+            </head>
+
             <body>
                 <ThemeProvider
                     attribute="class"
