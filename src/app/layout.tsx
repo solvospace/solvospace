@@ -22,13 +22,13 @@ const jsonLd = {
         {
             "@type": "WebSite",
             "@id": `${appSettings.links.website}/#website`,
-            name: "Solvospace",
+            name: appSettings.name,
             url: appSettings.links.website,
         },
         {
             "@type": "Organization",
             "@id": `${appSettings.links.website}/#organization`,
-            name: "Solvospace",
+            name: appSettings.name,
             url: appSettings.links.website,
             sameAs: [appSettings.links.github, appSettings.links.linkedin],
         },
