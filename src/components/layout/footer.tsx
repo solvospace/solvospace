@@ -1,6 +1,6 @@
 "use client";
 
-import appSettings from "@/constants/settings.constants";
+import appConfig from "@/configs/app.config";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 
@@ -16,12 +16,12 @@ export function Footer() {
             <p className="items-center">
                 &copy; {currentYear}{" "}
                 <Link
-                    aria-label={appSettings.name}
+                    aria-label={appConfig.name}
                     className="font-semibold"
-                    href={appSettings.links.website}
-                    title={appSettings.name}
+                    href={appConfig.links.website}
+                    title={appConfig.name}
                 >
-                    {appSettings.name}
+                    {appConfig.name}
                 </Link>
                 .
             </p>

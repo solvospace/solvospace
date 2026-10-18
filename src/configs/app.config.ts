@@ -1,4 +1,4 @@
-const appSettings = {
+const appConfig = {
     name: "Solvospace",
     description: "A place where things are built, solved, and refactored.",
     links: {
@@ -8,4 +8,4 @@ const appSettings = {
     },
 };
 
-export default appSettings;
+export default appConfig;
