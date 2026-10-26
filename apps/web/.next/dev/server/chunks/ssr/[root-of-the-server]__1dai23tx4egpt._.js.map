@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///Users/shubhamtak/Documents/Solvospace/Projects/solvospace/apps/web/src/contexts/theme-context.tsx"],"sourcesContent":["\"use client\";\n\nimport * as React from \"react\";\nimport { ThemeProvider as NextThemesProvider } from \"next-themes\";\n\nexport function ThemeProvider({ children, ...props }: React.ComponentProps<typeof NextThemesProvider>) {\n    return <NextThemesProvider {...props}>{children}</NextThemesProvider>;\n}\n"],"names":["ThemeProvider","children","props"],"mappings":";;;;;AAGA;AAHA;;;AAKO,SAASA,cAAc,EAAEC,QAAQ,EAAE,GAAGC,OAAwD;IACjG,qBAAO,8bAAC,ySAAkB;QAAE,GAAGA,KAAK;kBAAGD;;;;;;AAC3C"}}]
-}
