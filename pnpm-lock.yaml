@@ -193,6 +193,9 @@ importers:
       '@lucide/lab':
         specifier: ^0.1.2
         version: 0.1.2
+      '@microsoft/clarity':
+        specifier: ^1.0.2
+        version: 1.0.2
       '@vercel/analytics':
         specifier: ^2.0.1
         version: 2.0.1(next@16.4.2(@babel/core@7.29.7(supports-color@7.2.0))(@types/node@24.1.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.105.0))(react@19.2.4)
@@ -725,6 +728,9 @@ packages:
 
   '@lucide/lab@0.1.2':
     resolution: {integrity: sha512-VprF2BJa7ZuTGOhUd5cf8tHJXyL63wdxcGieAiVVoR9hO0YmPsnZO0AGqDiX2/br+/MC6n8BoJcmPilltOXIJA==}
+
+  '@microsoft/clarity@1.0.2':
+    resolution: {integrity: sha512-9EZYROFpJxEGmQpHvUFqvD3ZJ7QQSqnibYSWmS+1xusoZfG1QQ1/Al9yVBBc11DWMbJrs1pe1hLT273it/skJg==}
 
   '@modelcontextprotocol/sdk@1.30.1':
     resolution: {integrity: sha512-H2HxLvC3HDNybePJaLdSrU1hhUK5iQw+WvV1b01myFyI7sdVGe1u/IPTE5D9fGCiJDVtgMV/lmFkQXLmQyIFYA==}
@@ -3990,6 +3996,8 @@ snapshots:
       '@jridgewell/sourcemap-codec': 1.6.0
 
   '@lucide/lab@0.1.2': {}
+
+  '@microsoft/clarity@1.0.2': {}
 
   '@modelcontextprotocol/sdk@1.30.1(supports-color@7.2.0)(zod@3.25.76)':
     dependencies:

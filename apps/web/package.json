@@ -11,6 +11,7 @@
     "dependencies": {
         "@base-ui/react": "^1.8.0",
         "@lucide/lab": "^0.1.2",
+        "@microsoft/clarity": "^1.0.2",
         "@vercel/analytics": "^2.0.1",
         "@vercel/speed-insights": "^2.0.0",
         "axios": "^1.15.1",
