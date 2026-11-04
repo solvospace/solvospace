@@ -10,12 +10,12 @@
         "lint": "turbo lint"
     },
     "devDependencies": {
-        "concurrently": "^10.0.5",
-        "wait-on": "^9.1.0",
-        "turbo": "2.11.10",
-        "@types/node": "24.1.0",
-        "typescript": "6.0.3",
-        "eslint": "9.39.1"
+        "concurrently": "catalog:",
+        "wait-on": "catalog:",
+        "turbo": "catalog:",
+        "@types/node": "catalog:",
+        "typescript": "catalog:",
+        "eslint": "catalog:"
     },
     "packageManager": "pnpm@12.15.0",
     "engines": {
