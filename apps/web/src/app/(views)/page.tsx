@@ -24,9 +24,9 @@ export default function Home() {
 
     return (
         <>
-            <section className="flex h-[calc(100vh-100px)] flex-col items-center justify-center p-8 text-center">
-                <h1 className="mb-4 text-4xl font-bold sm:text-7xl">{appConfig.name}</h1>
-                <p className="mb-8 max-w-150 text-foreground sm:text-base">{appConfig.description}</p>
+            <section className="flex h-[calc(100vh-101px)] flex-col items-center justify-center p-8 text-center">
+                <h1 className="mb-3 text-4xl font-bold sm:text-7xl">{appConfig.name}</h1>
+                <p className="mb-4 max-w-150 text-foreground sm:text-base">{appConfig.description}</p>
 
                 <Button
                     onClick={() => {

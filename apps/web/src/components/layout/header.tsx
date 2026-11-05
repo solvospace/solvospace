@@ -14,16 +14,6 @@ export default function Header() {
             <div className="flex items-center gap-5 font-semibold">{appConfig.name}</div>
 
             <div className="flex gap-3 sm:ml-0">
-                <Link
-                    aria-label="View the repository on GitHub"
-                    href={appConfig.links.github}
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    title="View the repository on GitHub"
-                >
-                    <LuGithub className="size-5" />
-                </Link>
-
                 <ThemeToggle />
             </div>
         </nav>

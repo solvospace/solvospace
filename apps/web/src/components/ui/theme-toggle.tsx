@@ -4,6 +4,8 @@ import { useTheme } from "next-themes";
 import { useState, useEffect } from "react";
 import { Sun, Moon } from "lucide-react";
 
+const iconSize = 18;
+
 export function ThemeToggle() {
     const [mounted, setMounted] = useState(false);
     const { theme, setTheme } = useTheme();
@@ -23,9 +25,15 @@ export function ThemeToggle() {
             aria-label="Toggle theme"
         >
             {theme === "dark" ? (
-                <Sun className="size-5 text-[var(--foreground)]" />
+                <Sun
+                    size={iconSize}
+                    className="text-[var(--foreground)]"
+                />
             ) : (
-                <Moon className="size-5 text-[var(--foreground)]" />
+                <Moon
+                    size={iconSize}
+                    className="text-[var(--foreground)]"
+                />
             )}
         </button>
     );
