@@ -14,7 +14,6 @@
         "@microsoft/clarity": "catalog:",
         "@vercel/analytics": "catalog:",
         "@vercel/speed-insights": "catalog:",
-        "axios": "catalog:",
         "class-variance-authority": "catalog:",
         "cn": "catalog:",
         "lucide-react": "catalog:",
