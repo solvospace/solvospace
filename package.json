@@ -2,23 +2,22 @@
     "name": "solvospace",
     "license": "AGPL-3.0-or-later",
     "private": true,
+    "repository": "https://github.com/solvospace/solvospace.git",
     "scripts": {
-        "dev": "concurrently \"turbo run dev --concurrency=10\" \"wait-on http://localhost:3006 && open http://localhost:3006\"",
+        "dev": "turbo run dev & sleep 3 && open http://localhost:3006",
         "clean": "turbo run clean && rm -rf .turbo .next node_modules dist",
         "build": "turbo build --concurrency=4",
         "start": "turbo start",
         "lint": "turbo lint"
     },
     "devDependencies": {
-        "concurrently": "catalog:",
-        "wait-on": "catalog:",
         "turbo": "catalog:",
         "@types/node": "catalog:",
         "typescript": "catalog:",
         "eslint": "catalog:"
     },
-    "packageManager": "pnpm@12.15.0",
     "engines": {
-        "node": ">=24.22.2"
-    }
+        "node": ">=24.22.3"
+    },
+    "packageManager": "pnpm@12.21.0"
 }

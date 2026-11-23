@@ -6,9 +6,15 @@ allowBuilds:
     "@parcel/watcher": true
     unrs-resolver: true
 
+overrides:
+    "@types/react": 19.2.17
+    "@types/react-dom": 19.2.3
+    "postcss": 8.5.25
+    "sharp": ^0.35.0
+
 catalog:
+    "turbo": 2.11.13
     "typescript": 6.0.3
-    "turbo": 2.11.10
     "next": 16.4.6
     "react": 19.2.4
     "@base-ui/react": ^1.8.0
@@ -23,7 +29,6 @@ catalog:
     babel-plugin-react-compiler: ^1.0.0
     class-variance-authority: ^0.7.1
     cn: ^0.4.0
-    concurrently: ^10.0.5
     eslint: 9.39.1
     eslint-config-next: 16.2.10
     lucide-react: ^1.25.0
@@ -35,4 +40,3 @@ catalog:
     shadcn: ^4.21.0
     tailwindcss: ^4
     tw-animate-css: ^1.4.0
-    wait-on: ^9.1.0

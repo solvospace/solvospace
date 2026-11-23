@@ -1,5 +1,7 @@
 {
     "$schema": "./node_modules/turbo/schema.json",
+    "concurrency": "20",
+    "ui": "stream",
     "tasks": {
         "clean": {
             "cache": false
